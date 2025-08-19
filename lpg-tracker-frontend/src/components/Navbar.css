@@ -1,0 +1,29 @@
+/* .navbar{
+    background-color: rgb(220, 220, 253);
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+} */
+.navbar {
+  background-color: rgb(220, 220, 253);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Push left and right apart */
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: rgb(89, 43, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: rgb(255, 102, 0);
+}
